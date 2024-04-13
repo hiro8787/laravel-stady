@@ -1,0 +1,41 @@
+.thanks__content {
+    text-align: center;
+    
+}
+
+.thanks__heading {
+    display: flex;
+    margin: 0 auto;
+}
+
+.background {
+    display: flex;
+    font-size: 200px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    color: rgba(153, 139, 139, 0.1);
+}
+
+.form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form__button {
+
+}
+
+.form-btn {
+    top: 50%;
+    position: absolute;
+    background-color: #9a7a64;
+    color: #fff;
+}
+
+.main {
+    color: #9a7a64;
+    font-size: 20px;
+    top: 50%;
+    position: absolute;
+}

@@ -14,4 +14,15 @@ use App\Http\Controllers\TodoController;
 |
 */
 
-Route::get('/', ['TodoController::class' ,'index']);
+Route::get('/', [TodoController::class ,'index']);
+Route::post('/confirm', [TodoController::class, 'check']);
+Route::get('/thanks', [TodoController::class, 'store']);
+Route::post('/register', [TodoController::class, 'login']);
+/*
+Route::middleware('auth')->group(function () {
+    Route::get('/home', [TodoController::class, 'home']);
+});
+*/
+Route::post('/login', [TodoController::class, 'show']);
+Route::get('/admin',[TodoController::class, 'content']);
+
